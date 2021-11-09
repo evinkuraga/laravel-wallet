@@ -1,6 +1,6 @@
 <?php
 
-namespace Bavix\Wallet\Test;
+namespace Evinkuraga\Wallet\Test;
 
 use Bavix\Wallet\Services\WalletService;
 use Bavix\Wallet\Test\Common\Models\Wallet;

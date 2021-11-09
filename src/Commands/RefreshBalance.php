@@ -1,6 +1,6 @@
 <?php
 
-namespace Bavix\Wallet\Commands;
+namespace Evinkuraga\Wallet\Commands;
 
 use Bavix\Wallet\Models\Wallet;
 use Illuminate\Console\Command;

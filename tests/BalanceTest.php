@@ -1,6 +1,6 @@
 <?php
 
-namespace Bavix\Wallet\Test;
+namespace Evinkuraga\Wallet\Test;
 
 use function app;
 use Bavix\Wallet\Interfaces\Storable;

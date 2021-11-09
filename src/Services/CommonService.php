@@ -1,6 +1,6 @@
 <?php
 
-namespace Bavix\Wallet\Services;
+namespace Evinkuraga\Wallet\Services;
 
 use function app;
 use Bavix\Wallet\Exceptions\AmountInvalid;

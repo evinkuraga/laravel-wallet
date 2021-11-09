@@ -1,6 +1,6 @@
 <?php
 
-namespace Bavix\Wallet\Test\Common\Models;
+namespace Evinkuraga\Wallet\Test\Common\Models;
 
 /**
  * Class Transaction.

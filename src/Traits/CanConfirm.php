@@ -1,6 +1,6 @@
 <?php
 
-namespace Bavix\Wallet\Traits;
+namespace Evinkuraga\Wallet\Traits;
 
 use Bavix\Wallet\Exceptions\BalanceIsEmpty;
 use Bavix\Wallet\Exceptions\ConfirmedInvalid;

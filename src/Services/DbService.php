@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Services;
+namespace Evinkuraga\Wallet\Services;
 
 use Closure;
 use Illuminate\Database\ConnectionInterface;

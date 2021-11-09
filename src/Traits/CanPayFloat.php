@@ -1,6 +1,6 @@
 <?php
 
-namespace Bavix\Wallet\Traits;
+namespace Evinkuraga\Wallet\Traits;
 
 trait CanPayFloat
 {

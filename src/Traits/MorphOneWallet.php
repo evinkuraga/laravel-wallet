@@ -1,6 +1,6 @@
 <?php
 
-namespace Bavix\Wallet\Traits;
+namespace Evinkuraga\Wallet\Traits;
 
 use Bavix\Wallet\Models\Wallet as WalletModel;
 use Illuminate\Database\Eloquent\Relations\MorphOne;

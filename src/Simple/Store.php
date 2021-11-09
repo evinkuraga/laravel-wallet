@@ -1,6 +1,6 @@
 <?php
 
-namespace Bavix\Wallet\Simple;
+namespace Evinkuraga\Wallet\Simple;
 
 use Bavix\Wallet\Interfaces\Storable;
 use Bavix\Wallet\Internal\BookkeeperInterface;

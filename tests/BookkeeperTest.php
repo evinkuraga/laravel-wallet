@@ -1,6 +1,6 @@
 <?php
 
-namespace Bavix\Wallet\Test;
+namespace Evinkuraga\Wallet\Test;
 
 use Bavix\Wallet\Services\BookkeeperService;
 use Bavix\Wallet\Test\Factories\BuyerFactory;

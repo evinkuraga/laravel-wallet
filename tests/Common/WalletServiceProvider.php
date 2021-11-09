@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Test\Common;
+namespace Evinkuraga\Wallet\Test\Common;
 
 use Bavix\Wallet\WalletServiceProvider as ServiceProvider;
 

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Internal\Dto;
+namespace Evinkuraga\Wallet\Internal\Dto;
 
 use Bavix\Wallet\Interfaces\Customer;
 

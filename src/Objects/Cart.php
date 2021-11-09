@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Objects;
+namespace Evinkuraga\Wallet\Objects;
 
 use function array_unique;
 use Bavix\Wallet\Interfaces\Customer;

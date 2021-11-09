@@ -1,6 +1,6 @@
 <?php
 
-namespace Bavix\Wallet\Test\Models;
+namespace Evinkuraga\Wallet\Test\Models;
 
 use Bavix\Wallet\Interfaces\Confirmable;
 use Bavix\Wallet\Interfaces\Wallet;

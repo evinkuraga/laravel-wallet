@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Models;
+namespace Evinkuraga\Wallet\Models;
 
 use function app;
 use function array_key_exists;

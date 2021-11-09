@@ -1,6 +1,6 @@
 <?php
 
-namespace Bavix\Wallet\Traits;
+namespace Evinkuraga\Wallet\Traits;
 
 use Bavix\Wallet\Interfaces\Product;
 use Bavix\Wallet\Models\Transfer;

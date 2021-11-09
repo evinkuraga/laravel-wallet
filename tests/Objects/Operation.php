@@ -1,6 +1,6 @@
 <?php
 
-namespace Bavix\Wallet\Test\Objects;
+namespace Evinkuraga\Wallet\Test\Objects;
 
 class Operation extends \Bavix\Wallet\Objects\Operation
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Bavix\Wallet\Test\Common;
+namespace Evinkuraga\Wallet\Test\Common;
 
 use Bavix\Wallet\Interfaces\Wallet;
 use Bavix\Wallet\Internal\ExchangeInterface;

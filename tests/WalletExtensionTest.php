@@ -1,6 +1,6 @@
 <?php
 
-namespace Bavix\Wallet\Test;
+namespace Evinkuraga\Wallet\Test;
 
 use Bavix\Wallet\Objects\Operation;
 use Bavix\Wallet\Test\Common\Models\Transaction;

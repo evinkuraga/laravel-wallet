@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Interfaces;
+namespace Evinkuraga\Wallet\Interfaces;
 
 /**
  * @deprecated The interface was not thought out

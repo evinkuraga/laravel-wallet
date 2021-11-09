@@ -1,6 +1,6 @@
 <?php
 
-namespace Bavix\Wallet\Objects;
+namespace Evinkuraga\Wallet\Objects;
 
 use Illuminate\Cache\NoLock;
 use Illuminate\Contracts\Cache\Lock;

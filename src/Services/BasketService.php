@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Services;
+namespace Evinkuraga\Wallet\Services;
 
 use Bavix\Wallet\Internal\BasketInterface;
 use Bavix\Wallet\Internal\Dto\AvailabilityDto;

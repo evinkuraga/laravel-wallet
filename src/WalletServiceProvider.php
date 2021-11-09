@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet;
+namespace Evinkuraga\Wallet;
 
 use Bavix\Wallet\Commands\RefreshBalance;
 use Bavix\Wallet\Interfaces\Mathable;

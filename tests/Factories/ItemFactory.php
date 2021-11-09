@@ -1,6 +1,6 @@
 <?php
 
-namespace Bavix\Wallet\Test\Factories;
+namespace Evinkuraga\Wallet\Test\Factories;
 
 use Bavix\Wallet\Test\Models\Item;
 use Illuminate\Database\Eloquent\Factories\Factory;

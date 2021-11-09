@@ -1,6 +1,6 @@
 <?php
 
-namespace Bavix\Wallet\Test\Models;
+namespace Evinkuraga\Wallet\Test\Models;
 
 class ItemMeta extends Item
 {

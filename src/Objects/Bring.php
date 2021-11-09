@@ -1,6 +1,6 @@
 <?php
 
-namespace Bavix\Wallet\Objects;
+namespace Evinkuraga\Wallet\Objects;
 
 use Bavix\Wallet\Interfaces\Wallet;
 use Bavix\Wallet\Internal\MathInterface;

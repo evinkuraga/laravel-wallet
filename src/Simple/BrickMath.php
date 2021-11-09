@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Simple;
+namespace Evinkuraga\Wallet\Simple;
 
 use Bavix\Wallet\Interfaces\Mathable;
 use Bavix\Wallet\Services\MathService;

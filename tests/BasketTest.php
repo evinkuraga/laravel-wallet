@@ -1,6 +1,6 @@
 <?php
 
-namespace Bavix\Wallet\Test;
+namespace Evinkuraga\Wallet\Test;
 
 use Bavix\Wallet\Internal\Dto\BasketDto;
 use Bavix\Wallet\Internal\Dto\ItemDto;

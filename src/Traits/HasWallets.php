@@ -1,6 +1,6 @@
 <?php
 
-namespace Bavix\Wallet\Traits;
+namespace Evinkuraga\Wallet\Traits;
 
 use function array_key_exists;
 use Bavix\Wallet\Models\Wallet as WalletModel;
