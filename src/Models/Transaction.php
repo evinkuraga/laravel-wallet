@@ -10,7 +10,7 @@ use Bavix\Wallet\Internal\MathInterface;
 use Bavix\Wallet\Models\Wallet as WalletModel;
 use Bavix\Wallet\Services\WalletService;
 use function config;
-use Illuminate\Database\Eloquent\Model;
+use Jenssegers\Mongodb\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 
@@ -70,8 +70,8 @@ class Transaction extends Model
 
     public function getTable(): string
     {
-        if (!$this->table) {
-            $this->table = config('wallet.transaction.table', 'transactions');
+        if (!$this->collection) {
+            $this->collection = config('wallet.transaction.table', 'transactions');
         }
 
         return parent::getTable();

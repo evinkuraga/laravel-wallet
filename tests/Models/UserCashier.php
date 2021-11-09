@@ -4,7 +4,7 @@ namespace Bavix\Wallet\Test\Models;
 
 use Bavix\Wallet\Traits\HasWallets;
 use Bavix\Wallet\Traits\MorphOneWallet;
-use Illuminate\Database\Eloquent\Model;
+use Jenssegers\Mongodb\Eloquent\Model;
 use Laravel\Cashier\Billable;
 
 /**

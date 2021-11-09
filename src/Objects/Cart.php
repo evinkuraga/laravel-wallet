@@ -18,7 +18,7 @@ use Bavix\Wallet\Models\Transfer;
 use function count;
 use Countable;
 use function get_class;
-use Illuminate\Database\Eloquent\Model;
+use Jenssegers\Mongodb\Eloquent\Model;
 
 class Cart implements Countable, CartInterface
 {

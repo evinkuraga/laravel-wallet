@@ -17,7 +17,7 @@ use Bavix\Wallet\Traits\CanExchange;
 use Bavix\Wallet\Traits\CanPayFloat;
 use Bavix\Wallet\Traits\HasGift;
 use function config;
-use Illuminate\Database\Eloquent\Model;
+use Jenssegers\Mongodb\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Support\Str;
 
@@ -81,8 +81,8 @@ class Wallet extends Model implements Customer, WalletFloat, Confirmable, Exchan
 
     public function getTable(): string
     {
-        if (!$this->table) {
-            $this->table = config('wallet.wallet.table', 'wallets');
+        if (!$this->collection) {
+            $this->collection = config('wallet.wallet.table', 'wallets');
         }
 
         return parent::getTable();

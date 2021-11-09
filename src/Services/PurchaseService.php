@@ -9,7 +9,7 @@ use Bavix\Wallet\Internal\Dto\BasketDto;
 use Bavix\Wallet\Internal\PurchaseInterface;
 use Bavix\Wallet\Models\Transfer;
 use Bavix\Wallet\Traits\HasWallet;
-use Illuminate\Database\Eloquent\Model;
+use Jenssegers\Mongodb\Eloquent\Model;
 
 class PurchaseService implements PurchaseInterface
 {

@@ -6,7 +6,7 @@ namespace Bavix\Wallet\Models;
 
 use function array_merge;
 use function config;
-use Illuminate\Database\Eloquent\Model;
+use Jenssegers\Mongodb\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 
@@ -71,8 +71,8 @@ class Transfer extends Model
 
     public function getTable(): string
     {
-        if (!$this->table) {
-            $this->table = config('wallet.transfer.table', 'transfers');
+        if (!$this->collection) {
+            $this->collection = config('wallet.transfer.table', 'transfers');
         }
 
         return parent::getTable();
