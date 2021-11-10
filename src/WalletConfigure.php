@@ -11,7 +11,7 @@ namespace Evinkuraga\Wallet;
  */
 final class WalletConfigure
 {
-    private static bool $runsMigrations = true;
+    private static $runsMigrations = true;
 
     /** Configure Wallet to not register its migrations. */
     public static function ignoreMigrations(): void
