@@ -2,7 +2,7 @@
 
 namespace Evinkuraga\Wallet\Test\Objects;
 
-class Operation extends \Bavix\Wallet\Objects\Operation
+class Operation extends \Evinkuraga\Wallet\Objects\Operation
 {
     public function toArray(): array
     {

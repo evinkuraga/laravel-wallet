@@ -28,7 +28,7 @@ use Evinkuraga\Wallet\Interfaces\Wallet;
 use Evinkuraga\Wallet\Services\WalletService;
 use Illuminate\Support\Arr;
 
-class MyRateService extends \Bavix\Wallet\Simple\Rate
+class MyRateService extends \Evinkuraga\Wallet\Simple\Rate
 {
 
     // список курса валют (берёте из базы данных)

@@ -14,7 +14,7 @@ composer req evinkuraga/laravel-wallet
 
 [Editing the application file](https://lumen.laravel.com/docs/5.8/providers#registering-providers) `bootstrap/app.php`
 ```php
-$app->register(\Bavix\Wallet\WalletServiceProvider::class);
+$app->register(\Evinkuraga\Wallet\WalletServiceProvider::class);
 ```
 
 Запустите миграцию и используйте библиотеку.

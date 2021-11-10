@@ -48,12 +48,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Bavix\\Wallet\\": "src/"
+      "Evinkuraga\\Wallet\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Bavix\\Wallet\\Test\\": "tests/"
+      "Evinkuraga\\Wallet\\Test\\": "tests/"
     }
   },
   "scripts": {
@@ -73,7 +73,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Bavix\\Wallet\\WalletServiceProvider"
+        "Evinkuraga\\Wallet\\WalletServiceProvider"
       ]
     }
   },

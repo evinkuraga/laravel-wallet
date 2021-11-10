@@ -70,6 +70,6 @@ $user->balance; // -1
 Может быть 2 ситуации:
 
 - Баланс пользователя =0, тогда
-`Bavix\Wallet\Exceptions\BalanceIsEmpty`
+`Evinkuraga\Wallet\Exceptions\BalanceIsEmpty`
 - Баланс пользователя >0 и монет не хватает, то
-`Bavix\Wallet\Exceptions\InsufficientFunds`
+`Evinkuraga\Wallet\Exceptions\InsufficientFunds`

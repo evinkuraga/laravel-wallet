@@ -8,7 +8,7 @@ use Evinkuraga\Wallet\Internal\MathInterface;
 use Evinkuraga\Wallet\Services\WalletService;
 use Illuminate\Support\Arr;
 
-class Rate extends \Bavix\Wallet\Simple\Rate
+class Rate extends \Evinkuraga\Wallet\Simple\Rate
 {
     /**
      * @var array
@@ -61,7 +61,7 @@ class Rate extends \Bavix\Wallet\Simple\Rate
         $to = $this->walletService->getWallet($wallet);
 
         /**
-         * @var \Bavix\Wallet\Models\Wallet $wallet
+         * @var \Evinkuraga\Wallet\Models\Wallet $wallet
          */
         return Arr::get(
             Arr::get($this->rates, $from->currency, []),

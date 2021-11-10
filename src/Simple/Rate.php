@@ -50,7 +50,7 @@ class Rate implements Rateable
      */
     public function convertTo(Wallet $wallet)
     {
-        /** @var \Bavix\Wallet\Models\Wallet $wallet */
+        /** @var \Evinkuraga\Wallet\Models\Wallet $wallet */
         return $this->exchange->convertTo(
             $this->withCurrency->currency,
             $wallet->currency,

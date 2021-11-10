@@ -31,7 +31,7 @@ use Illuminate\Support\Str;
  * @property string                          $description
  * @property array                           $meta
  * @property int                             $decimal_places
- * @property \Bavix\Wallet\Interfaces\Wallet $holder
+ * @property \Evinkuraga\Wallet\Interfaces\Wallet $holder
  * @property string                          $currency
  */
 class Wallet extends Model implements Customer, WalletFloat, Confirmable, Exchangeable

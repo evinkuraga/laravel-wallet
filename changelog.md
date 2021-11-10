@@ -413,9 +413,9 @@ This removes a lot of errors that were sent to my email.
 
 ### Changed
 - applied fixes from cs-fixer
-- change singleton path `bavix.wallet::transaction` to `Bavix\Wallet\Models\Transaction::class`
-- change singleton path `bavix.wallet::transfer` to `Bavix\Wallet\Models\Transfer::class`
-- change singleton path `bavix.wallet::wallet` to `Bavix\Wallet\Models\Wallet::class`
+- change singleton path `bavix.wallet::transaction` to `Evinkuraga\Wallet\Models\Transaction::class`
+- change singleton path `bavix.wallet::transfer` to `Evinkuraga\Wallet\Models\Transfer::class`
+- change singleton path `bavix.wallet::wallet` to `Evinkuraga\Wallet\Models\Wallet::class`
 - change method `canBuy`. Added parameter `$quantity`
 
 ### Removed

@@ -9,7 +9,7 @@ use Cknow\Money\Money;
  *
  * @property Money $currency
  */
-class TransactionMoney extends \Bavix\Wallet\Models\Transaction
+class TransactionMoney extends \Evinkuraga\Wallet\Models\Transaction
 {
     /**
      * @var Money

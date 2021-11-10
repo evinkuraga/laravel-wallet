@@ -7,7 +7,7 @@ namespace Evinkuraga\Wallet\Test\Common\Models;
  *
  * @property null|string $bank_method
  */
-class Transaction extends \Bavix\Wallet\Models\Transaction
+class Transaction extends \Evinkuraga\Wallet\Models\Transaction
 {
     /**
      * {@inheritdoc}
