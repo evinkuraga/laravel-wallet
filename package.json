@@ -4,12 +4,12 @@
 	"description": "Package documentation",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/bavix/laravel-wallet.git"
+		"url": "git+https://github.com/evinkuraga/laravel-wallet.git"
 	},
 	"author": "Maxim Babichev",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/bavix/laravel-wallet/issues"
+		"url": "https://github.com/evinkuraga/laravel-wallet/issues"
 	},
 	"homepage": "https://bavix.github.io/laravel-wallet/",
 	"dependencies": {

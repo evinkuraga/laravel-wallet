@@ -67,7 +67,7 @@ class ConfirmTest extends TestCase
     }
 
     /**
-     * @see https://github.com/bavix/laravel-wallet/issues/134
+     * @see https://github.com/evinkuraga/laravel-wallet/issues/134
      */
     public function testWithdraw(): void
     {

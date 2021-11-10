@@ -295,7 +295,7 @@ class WalletFloatTest extends TestCase
     /**
      * Case from @ucanbehack.
      *
-     * @see https://github.com/bavix/laravel-wallet/issues/149
+     * @see https://github.com/evinkuraga/laravel-wallet/issues/149
      */
     public function testBitcoin2(): void
     {

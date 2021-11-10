@@ -238,7 +238,7 @@ class CartTest extends TestCase
     }
 
     /**
-     * @see https://github.com/bavix/laravel-wallet/issues/279
+     * @see https://github.com/evinkuraga/laravel-wallet/issues/279
      */
     public function testWithdrawal(): void
     {

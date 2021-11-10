@@ -95,7 +95,7 @@ class WalletService
         /**
          * Added minimum commission condition.
          *
-         * @see https://github.com/bavix/laravel-wallet/issues/64#issuecomment-514483143
+         * @see https://github.com/evinkuraga/laravel-wallet/issues/64#issuecomment-514483143
          */
         if ($wallet instanceof MinimalTaxable) {
             $minimal = $wallet->getMinimalFee();

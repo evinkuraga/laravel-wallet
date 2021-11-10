@@ -5,7 +5,7 @@
 В корне вашего проекта запустите:
 
 ```bash
-composer req bavix/laravel-wallet
+composer req evinkuraga/laravel-wallet
 ```
 
 Убедитесь, что проект настроен на [autoload Composer-installed packages](https://getcomposer.org/doc/01-basic-usage.md#autoloading).
