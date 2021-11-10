@@ -1,3 +1,6 @@
+# IMPORTANT NOTE
+This package is forked from Bavix (Bavix/laravel-wallet). As far as I know, it is actively maintained. It was only forked to change this package to work with **Jenssegers/mongodb**. I won't be maintaining this package, just getting it functional with a current project. Do not use this unless you're using Mongo and if you do, only **use version ^6.3**
+
 ![Laravel Wallet](https://user-images.githubusercontent.com/5111255/48687709-a7c2fa00-ebd3-11e8-8714-c4f3efe93f02.png)
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/588400f5f40cbbf3a8ab/maintainability)](https://codeclimate.com/github/bavix/laravel-wallet/maintainability)

@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [6.3.0] - 2021-11-10
+### Fixed
+- Revamp to work with mongo instead. Don't use a previous version otherwise. Still WIP `migrate:refresh`
+
 ## [6.2.3] - 2021-11-08
 ### Fixed
 - Fixed a bug with `migrate:refresh`
