@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Evinkuraga\Wallet\Services;
 
-use Bavix\Wallet\Internal\BookkeeperInterface;
-use Bavix\Wallet\Internal\Exceptions\RecordNotFoundException;
-use Bavix\Wallet\Internal\LockInterface;
-use Bavix\Wallet\Internal\StorageInterface;
-use Bavix\Wallet\Models\Wallet;
+use Evinkuraga\Wallet\Internal\BookkeeperInterface;
+use Evinkuraga\Wallet\Internal\Exceptions\RecordNotFoundException;
+use Evinkuraga\Wallet\Internal\LockInterface;
+use Evinkuraga\Wallet\Internal\StorageInterface;
+use Evinkuraga\Wallet\Models\Wallet;
 
 class BookkeeperService implements BookkeeperInterface
 {

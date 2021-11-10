@@ -2,12 +2,12 @@
 
 namespace Evinkuraga\Wallet\Test\Models;
 
-use Bavix\Wallet\Interfaces\Customer;
-use Bavix\Wallet\Interfaces\Product;
-use Bavix\Wallet\Models\Transfer;
-use Bavix\Wallet\Models\Wallet;
-use Bavix\Wallet\Services\WalletService;
-use Bavix\Wallet\Traits\HasWallet;
+use Evinkuraga\Wallet\Interfaces\Customer;
+use Evinkuraga\Wallet\Interfaces\Product;
+use Evinkuraga\Wallet\Models\Transfer;
+use Evinkuraga\Wallet\Models\Wallet;
+use Evinkuraga\Wallet\Services\WalletService;
+use Evinkuraga\Wallet\Traits\HasWallet;
 use Jenssegers\Mongodb\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 

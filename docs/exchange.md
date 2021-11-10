@@ -38,11 +38,11 @@ We will write a simple service.
 We will take the data from the array, and not from the database.
 
 ```php
-use Bavix\Wallet\Interfaces\Wallet;
-use Bavix\Wallet\Services\WalletService;
+use Evinkuraga\Wallet\Interfaces\Wallet;
+use Evinkuraga\Wallet\Services\WalletService;
 use Illuminate\Support\Arr;
 
-class MyRateService extends \Bavix\Wallet\Simple\Rate
+class MyRateService extends \Evinkuraga\Wallet\Simple\Rate
 {
 
     // list of exchange rates (take from the database)

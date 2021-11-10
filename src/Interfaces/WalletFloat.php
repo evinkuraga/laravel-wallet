@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Evinkuraga\Wallet\Interfaces;
 
-use Bavix\Wallet\Models\Transaction;
-use Bavix\Wallet\Models\Transfer;
+use Evinkuraga\Wallet\Models\Transaction;
+use Evinkuraga\Wallet\Models\Transfer;
 
 interface WalletFloat
 {

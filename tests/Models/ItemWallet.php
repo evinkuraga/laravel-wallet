@@ -2,7 +2,7 @@
 
 namespace Evinkuraga\Wallet\Test\Models;
 
-use Bavix\Wallet\Traits\HasWallets;
+use Evinkuraga\Wallet\Traits\HasWallets;
 
 class ItemWallet extends Item
 {

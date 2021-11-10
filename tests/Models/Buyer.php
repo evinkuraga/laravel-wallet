@@ -2,8 +2,8 @@
 
 namespace Evinkuraga\Wallet\Test\Models;
 
-use Bavix\Wallet\Interfaces\Customer;
-use Bavix\Wallet\Traits\CanPay;
+use Evinkuraga\Wallet\Interfaces\Customer;
+use Evinkuraga\Wallet\Traits\CanPay;
 use Jenssegers\Mongodb\Eloquent\Model;
 
 /**

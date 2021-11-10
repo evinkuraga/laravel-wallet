@@ -2,10 +2,10 @@
 
 namespace Evinkuraga\Wallet\Test;
 
-use Bavix\Wallet\Models\Transfer;
-use Bavix\Wallet\Models\Wallet;
-use Bavix\Wallet\Test\Factories\ItemFactory;
-use Bavix\Wallet\Test\Factories\UserMultiFactory;
+use Evinkuraga\Wallet\Models\Transfer;
+use Evinkuraga\Wallet\Models\Wallet;
+use Evinkuraga\Wallet\Test\Factories\ItemFactory;
+use Evinkuraga\Wallet\Test\Factories\UserMultiFactory;
 use Bavix\Wallet\Test\Models\Item;
 use Bavix\Wallet\Test\Models\UserMulti;
 

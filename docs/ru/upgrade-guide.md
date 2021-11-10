@@ -22,17 +22,17 @@
 
 ## 2.4.x → 3.0.x
 
-Замените путь `bavix.wallet::transaction` на `Bavix\Wallet\Models\Transaction::class`
+Замените путь `bavix.wallet::transaction` на `Evinkuraga\Wallet\Models\Transaction::class`
 
-Замените путь `bavix.wallet::transfer` на `Bavix\Wallet\Models\Transfer::class`
+Замените путь `bavix.wallet::transfer` на `Evinkuraga\Wallet\Models\Transfer::class`
 
-Замените путь `bavix.wallet::wallet` на `Bavix\Wallet\Models\Wallet::class`
+Замените путь `bavix.wallet::wallet` на `Evinkuraga\Wallet\Models\Wallet::class`
 
 ```php
 // старый вариант
 app('bavix.wallet::transaction'); 
 // новый вариант
-app(Bavix\Wallet\Models\Transaction::class); 
+app(Evinkuraga\Wallet\Models\Transaction::class); 
 ```
 
 Необходимо добавить `$quantity` параметр в метод `canBuy`.

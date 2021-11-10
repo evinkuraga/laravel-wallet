@@ -3,7 +3,7 @@
 namespace Evinkuraga\Wallet\Traits;
 
 use function array_key_exists;
-use Bavix\Wallet\Models\Wallet as WalletModel;
+use Evinkuraga\Wallet\Models\Wallet as WalletModel;
 use function config;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Database\Eloquent\Relations\MorphMany;

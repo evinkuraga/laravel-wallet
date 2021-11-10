@@ -2,7 +2,7 @@
 
 namespace Evinkuraga\Wallet\Test\Factories;
 
-use Bavix\Wallet\Test\Models\UserFloat;
+use Evinkuraga\Wallet\Test\Models\UserFloat;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class UserFloatFactory extends Factory

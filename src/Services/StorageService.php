@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Evinkuraga\Wallet\Services;
 
-use Bavix\Wallet\Internal\Exceptions\RecordNotFoundException;
-use Bavix\Wallet\Internal\LockInterface;
-use Bavix\Wallet\Internal\MathInterface;
-use Bavix\Wallet\Internal\StorageInterface;
+use Evinkuraga\Wallet\Internal\Exceptions\RecordNotFoundException;
+use Evinkuraga\Wallet\Internal\LockInterface;
+use Evinkuraga\Wallet\Internal\MathInterface;
+use Evinkuraga\Wallet\Internal\StorageInterface;
 use Illuminate\Cache\CacheManager;
 use Illuminate\Config\Repository as ConfigRepository;
 use Illuminate\Contracts\Cache\Repository as CacheRepository;

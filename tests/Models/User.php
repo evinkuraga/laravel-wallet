@@ -2,8 +2,8 @@
 
 namespace Evinkuraga\Wallet\Test\Models;
 
-use Bavix\Wallet\Interfaces\Wallet;
-use Bavix\Wallet\Traits\HasWallet;
+use Evinkuraga\Wallet\Interfaces\Wallet;
+use Evinkuraga\Wallet\Traits\HasWallet;
 use Jenssegers\Mongodb\Eloquent\Model;
 
 /**

@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Evinkuraga\Wallet\Interfaces;
 
-use Bavix\Wallet\Internal\CartInterface;
-use Bavix\Wallet\Models\Transfer;
+use Evinkuraga\Wallet\Internal\CartInterface;
+use Evinkuraga\Wallet\Models\Transfer;
 
 interface Customer extends Wallet
 {

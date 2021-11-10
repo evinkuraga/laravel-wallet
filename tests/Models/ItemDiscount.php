@@ -2,9 +2,9 @@
 
 namespace Evinkuraga\Wallet\Test\Models;
 
-use Bavix\Wallet\Interfaces\Customer;
-use Bavix\Wallet\Interfaces\Discount;
-use Bavix\Wallet\Services\WalletService;
+use Evinkuraga\Wallet\Interfaces\Customer;
+use Evinkuraga\Wallet\Interfaces\Discount;
+use Evinkuraga\Wallet\Services\WalletService;
 
 class ItemDiscount extends Item implements Discount
 {

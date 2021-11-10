@@ -2,8 +2,8 @@
 
 namespace Evinkuraga\Wallet\Test\Common\Services;
 
-use Bavix\Wallet\Models\Wallet as WalletModel;
-use Bavix\Wallet\Services\WalletService;
+use Evinkuraga\Wallet\Models\Wallet as WalletModel;
+use Evinkuraga\Wallet\Services\WalletService;
 use Doctrine\DBAL\Exception\InvalidArgumentException;
 
 class WalletAdjustmentFailedService extends WalletService

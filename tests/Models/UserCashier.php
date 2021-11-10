@@ -2,8 +2,8 @@
 
 namespace Evinkuraga\Wallet\Test\Models;
 
-use Bavix\Wallet\Traits\HasWallets;
-use Bavix\Wallet\Traits\MorphOneWallet;
+use Evinkuraga\Wallet\Traits\HasWallets;
+use Evinkuraga\Wallet\Traits\MorphOneWallet;
 use Jenssegers\Mongodb\Eloquent\Model;
 use Laravel\Cashier\Billable;
 

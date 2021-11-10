@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Evinkuraga\Wallet\Services;
 
-use Bavix\Wallet\Internal\BasketInterface;
-use Bavix\Wallet\Internal\Dto\AvailabilityDto;
+use Evinkuraga\Wallet\Internal\BasketInterface;
+use Evinkuraga\Wallet\Internal\Dto\AvailabilityDto;
 
 class BasketService implements BasketInterface
 {

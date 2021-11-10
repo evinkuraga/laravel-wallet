@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Evinkuraga\Wallet\Interfaces;
 
-use Bavix\Wallet\Internal\BookkeeperInterface;
+use Evinkuraga\Wallet\Internal\BookkeeperInterface;
 
 /**
  * @deprecated Will be removed in future versions
