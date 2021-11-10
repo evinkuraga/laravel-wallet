@@ -8,13 +8,13 @@ use Evinkuraga\Wallet\Objects\Cart;
 use Evinkuraga\Wallet\Objects\EmptyLock;
 use Evinkuraga\Wallet\Objects\Operation;
 use Evinkuraga\Wallet\Services\CommonService;
-use Bavix\Wallet\Services\ExchangeService;
-use Bavix\Wallet\Services\LockService;
-use Bavix\Wallet\Services\MathService;
-use Bavix\Wallet\Services\WalletService;
-use Bavix\Wallet\Simple\Exchange;
-use Bavix\Wallet\Simple\Rate;
-use Bavix\Wallet\Simple\Store;
+use Evinkuraga\Wallet\Services\ExchangeService;
+use Evinkuraga\Wallet\Services\LockService;
+use Evinkuraga\Wallet\Services\MathService;
+use Evinkuraga\Wallet\Services\WalletService;
+use Evinkuraga\Wallet\Simple\Exchange;
+use Evinkuraga\Wallet\Simple\Rate;
+use Evinkuraga\Wallet\Simple\Store;
 
 return [
     /**

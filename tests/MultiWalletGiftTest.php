@@ -6,8 +6,8 @@ use Evinkuraga\Wallet\Models\Transfer;
 use Evinkuraga\Wallet\Models\Wallet;
 use Evinkuraga\Wallet\Test\Factories\ItemFactory;
 use Evinkuraga\Wallet\Test\Factories\UserMultiFactory;
-use Bavix\Wallet\Test\Models\Item;
-use Bavix\Wallet\Test\Models\UserMulti;
+use Evinkuraga\Wallet\Test\Models\Item;
+use Evinkuraga\Wallet\Test\Models\UserMulti;
 
 /**
  * @internal

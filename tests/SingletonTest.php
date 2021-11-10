@@ -2,22 +2,22 @@
 
 namespace Evinkuraga\Wallet\Test;
 
-use Bavix\Wallet\Interfaces\Mathable;
-use Bavix\Wallet\Interfaces\Rateable;
-use Bavix\Wallet\Interfaces\Storable;
-use Bavix\Wallet\Internal\MathInterface;
-use Bavix\Wallet\Objects\Bring;
-use Bavix\Wallet\Objects\Cart;
-use Bavix\Wallet\Objects\EmptyLock;
-use Bavix\Wallet\Objects\Operation;
-use Bavix\Wallet\Services\CommonService;
-use Bavix\Wallet\Services\DbService;
-use Bavix\Wallet\Services\ExchangeService;
-use Bavix\Wallet\Services\LockService;
-use Bavix\Wallet\Services\WalletService;
-use Bavix\Wallet\Test\Common\Models\Transaction;
-use Bavix\Wallet\Test\Common\Models\Transfer;
-use Bavix\Wallet\Test\Common\Models\Wallet;
+use Evinkuraga\Wallet\Interfaces\Mathable;
+use Evinkuraga\Wallet\Interfaces\Rateable;
+use Evinkuraga\Wallet\Interfaces\Storable;
+use Evinkuraga\Wallet\Internal\MathInterface;
+use Evinkuraga\Wallet\Objects\Bring;
+use Evinkuraga\Wallet\Objects\Cart;
+use Evinkuraga\Wallet\Objects\EmptyLock;
+use Evinkuraga\Wallet\Objects\Operation;
+use Evinkuraga\Wallet\Services\CommonService;
+use Evinkuraga\Wallet\Services\DbService;
+use Evinkuraga\Wallet\Services\ExchangeService;
+use Evinkuraga\Wallet\Services\LockService;
+use Evinkuraga\Wallet\Services\WalletService;
+use Evinkuraga\Wallet\Test\Common\Models\Transaction;
+use Evinkuraga\Wallet\Test\Common\Models\Transfer;
+use Evinkuraga\Wallet\Test\Common\Models\Wallet;
 
 /**
  * @internal

@@ -2,13 +2,13 @@
 
 namespace Evinkuraga\Wallet\Test;
 
-use Bavix\Wallet\Exceptions\ConfirmedInvalid;
-use Bavix\Wallet\Exceptions\UnconfirmedInvalid;
-use Bavix\Wallet\Exceptions\WalletOwnerInvalid;
-use Bavix\Wallet\Test\Factories\BuyerFactory;
-use Bavix\Wallet\Test\Factories\UserConfirmFactory;
-use Bavix\Wallet\Test\Models\Buyer;
-use Bavix\Wallet\Test\Models\UserConfirm;
+use Evinkuraga\Wallet\Exceptions\ConfirmedInvalid;
+use Evinkuraga\Wallet\Exceptions\UnconfirmedInvalid;
+use Evinkuraga\Wallet\Exceptions\WalletOwnerInvalid;
+use Evinkuraga\Wallet\Test\Factories\BuyerFactory;
+use Evinkuraga\Wallet\Test\Factories\UserConfirmFactory;
+use Evinkuraga\Wallet\Test\Models\Buyer;
+use Evinkuraga\Wallet\Test\Models\UserConfirm;
 
 /**
  * @internal

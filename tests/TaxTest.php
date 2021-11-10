@@ -2,12 +2,12 @@
 
 namespace Evinkuraga\Wallet\Test;
 
-use Bavix\Wallet\Exceptions\InsufficientFunds;
-use Bavix\Wallet\Models\Transaction;
-use Bavix\Wallet\Test\Factories\BuyerFactory;
-use Bavix\Wallet\Test\Factories\ItemTaxFactory;
-use Bavix\Wallet\Test\Models\Buyer;
-use Bavix\Wallet\Test\Models\ItemTax;
+use Evinkuraga\Wallet\Exceptions\InsufficientFunds;
+use Evinkuraga\Wallet\Models\Transaction;
+use Evinkuraga\Wallet\Test\Factories\BuyerFactory;
+use Evinkuraga\Wallet\Test\Factories\ItemTaxFactory;
+use Evinkuraga\Wallet\Test\Models\Buyer;
+use Evinkuraga\Wallet\Test\Models\ItemTax;
 
 /**
  * @internal

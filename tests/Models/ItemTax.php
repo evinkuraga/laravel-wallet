@@ -2,7 +2,7 @@
 
 namespace Evinkuraga\Wallet\Test\Models;
 
-use Bavix\Wallet\Interfaces\Taxable;
+use Evinkuraga\Wallet\Interfaces\Taxable;
 
 class ItemTax extends Item implements Taxable
 {

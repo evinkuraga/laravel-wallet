@@ -2,10 +2,10 @@
 
 namespace Evinkuraga\Wallet\Objects;
 
-use Bavix\Wallet\Interfaces\Wallet;
-use Bavix\Wallet\Internal\MathInterface;
-use Bavix\Wallet\Internal\UuidInterface;
-use Bavix\Wallet\Models\Transaction;
+use Evinkuraga\Wallet\Interfaces\Wallet;
+use Evinkuraga\Wallet\Internal\MathInterface;
+use Evinkuraga\Wallet\Internal\UuidInterface;
+use Evinkuraga\Wallet\Models\Transaction;
 
 /** @deprecated There is no alternative yet, but the class will be removed */
 class Operation

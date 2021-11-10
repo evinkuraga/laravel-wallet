@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Evinkuraga\Wallet\Internal;
 
-use Bavix\Wallet\Models\Wallet;
+use Evinkuraga\Wallet\Models\Wallet;
 
 interface BookkeeperInterface
 {

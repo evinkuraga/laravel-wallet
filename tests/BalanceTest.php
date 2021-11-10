@@ -3,15 +3,15 @@
 namespace Evinkuraga\Wallet\Test;
 
 use function app;
-use Bavix\Wallet\Interfaces\Storable;
-use Bavix\Wallet\Models\Wallet;
-use Bavix\Wallet\Services\CommonService;
-use Bavix\Wallet\Services\WalletService;
-use Bavix\Wallet\Test\Common\Services\WalletAdjustmentFailedService;
-use Bavix\Wallet\Test\Factories\BuyerFactory;
-use Bavix\Wallet\Test\Factories\UserMultiFactory;
-use Bavix\Wallet\Test\Models\Buyer;
-use Bavix\Wallet\Test\Models\UserMulti;
+use Evinkuraga\Wallet\Interfaces\Storable;
+use Evinkuraga\Wallet\Models\Wallet;
+use Evinkuraga\Wallet\Services\CommonService;
+use Evinkuraga\Wallet\Services\WalletService;
+use Evinkuraga\Wallet\Test\Common\Services\WalletAdjustmentFailedService;
+use Evinkuraga\Wallet\Test\Factories\BuyerFactory;
+use Evinkuraga\Wallet\Test\Factories\UserMultiFactory;
+use Evinkuraga\Wallet\Test\Models\Buyer;
+use Evinkuraga\Wallet\Test\Models\UserMulti;
 use Illuminate\Database\SQLiteConnection;
 use Illuminate\Support\Facades\DB;
 use PDOException;

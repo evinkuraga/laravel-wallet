@@ -2,10 +2,10 @@
 
 namespace Evinkuraga\Wallet\Simple;
 
-use Bavix\Wallet\Interfaces\Storable;
-use Bavix\Wallet\Internal\BookkeeperInterface;
-use Bavix\Wallet\Internal\StorageInterface;
-use Bavix\Wallet\Services\WalletService;
+use Evinkuraga\Wallet\Interfaces\Storable;
+use Evinkuraga\Wallet\Internal\BookkeeperInterface;
+use Evinkuraga\Wallet\Internal\StorageInterface;
+use Evinkuraga\Wallet\Services\WalletService;
 
 /**
  * @deprecated

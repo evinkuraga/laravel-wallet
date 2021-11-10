@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Evinkuraga\Wallet\Internal\Dto;
 
-use Bavix\Wallet\Interfaces\Product;
+use Evinkuraga\Wallet\Interfaces\Product;
 use Countable;
 
 class ItemDto implements Countable

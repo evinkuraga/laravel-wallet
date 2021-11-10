@@ -2,7 +2,7 @@
 
 namespace Evinkuraga\Wallet\Test\Factories;
 
-use Bavix\Wallet\Test\Models\UserConfirm;
+use Evinkuraga\Wallet\Test\Models\UserConfirm;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class UserConfirmFactory extends Factory

@@ -2,14 +2,14 @@
 
 namespace Evinkuraga\Wallet\Test;
 
-use Bavix\Wallet\Interfaces\Storable;
-use Bavix\Wallet\Services\MathService;
-use Bavix\Wallet\Simple\Store;
-use Bavix\Wallet\Test\Common\Models\Transaction;
-use Bavix\Wallet\Test\Common\Models\Transfer;
-use Bavix\Wallet\Test\Common\Models\Wallet;
-use Bavix\Wallet\Test\Common\Rate;
-use Bavix\Wallet\Test\Common\WalletServiceProvider;
+use Evinkuraga\Wallet\Interfaces\Storable;
+use Evinkuraga\Wallet\Services\MathService;
+use Evinkuraga\Wallet\Simple\Store;
+use Evinkuraga\Wallet\Test\Common\Models\Transaction;
+use Evinkuraga\Wallet\Test\Common\Models\Transfer;
+use Evinkuraga\Wallet\Test\Common\Models\Wallet;
+use Evinkuraga\Wallet\Test\Common\Rate;
+use Evinkuraga\Wallet\Test\Common\WalletServiceProvider;
 use Illuminate\Config\Repository;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Testing\RefreshDatabase;

@@ -2,10 +2,10 @@
 
 namespace Evinkuraga\Wallet\Test;
 
-use Bavix\Wallet\Services\WalletService;
-use Bavix\Wallet\Test\Common\Models\Wallet;
-use Bavix\Wallet\Test\Factories\UserConfirmFactory;
-use Bavix\Wallet\Test\Models\UserConfirm;
+use Evinkuraga\Wallet\Services\WalletService;
+use Evinkuraga\Wallet\Test\Common\Models\Wallet;
+use Evinkuraga\Wallet\Test\Factories\UserConfirmFactory;
+use Evinkuraga\Wallet\Test\Models\UserConfirm;
 
 /**
  * @internal

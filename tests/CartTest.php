@@ -2,17 +2,17 @@
 
 namespace Evinkuraga\Wallet\Test;
 
-use Bavix\Wallet\Internal\MathInterface;
-use Bavix\Wallet\Models\Transfer;
-use Bavix\Wallet\Objects\Cart;
-use Bavix\Wallet\Services\DbService;
-use Bavix\Wallet\Test\Common\Models\Transaction;
-use Bavix\Wallet\Test\Factories\BuyerFactory;
-use Bavix\Wallet\Test\Factories\ItemFactory;
-use Bavix\Wallet\Test\Factories\ItemMetaFactory;
-use Bavix\Wallet\Test\Models\Buyer;
-use Bavix\Wallet\Test\Models\Item;
-use Bavix\Wallet\Test\Models\ItemMeta;
+use Evinkuraga\Wallet\Internal\MathInterface;
+use Evinkuraga\Wallet\Models\Transfer;
+use Evinkuraga\Wallet\Objects\Cart;
+use Evinkuraga\Wallet\Services\DbService;
+use Evinkuraga\Wallet\Test\Common\Models\Transaction;
+use Evinkuraga\Wallet\Test\Factories\BuyerFactory;
+use Evinkuraga\Wallet\Test\Factories\ItemFactory;
+use Evinkuraga\Wallet\Test\Factories\ItemMetaFactory;
+use Evinkuraga\Wallet\Test\Models\Buyer;
+use Evinkuraga\Wallet\Test\Models\Item;
+use Evinkuraga\Wallet\Test\Models\ItemMeta;
 use function count;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 

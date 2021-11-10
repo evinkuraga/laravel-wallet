@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Evinkuraga\Wallet\Test\Common;
 
-use Bavix\Wallet\WalletServiceProvider as ServiceProvider;
+use Evinkuraga\Wallet\WalletServiceProvider as ServiceProvider;
 
 class WalletServiceProvider extends ServiceProvider
 {

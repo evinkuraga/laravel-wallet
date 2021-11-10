@@ -2,12 +2,12 @@
 
 namespace Evinkuraga\Wallet\Test;
 
-use Bavix\Wallet\Models\Transfer;
-use Bavix\Wallet\Services\WalletService;
-use Bavix\Wallet\Test\Factories\BuyerFactory;
-use Bavix\Wallet\Test\Factories\ItemDiscountTaxFactory;
-use Bavix\Wallet\Test\Models\Buyer;
-use Bavix\Wallet\Test\Models\ItemDiscountTax;
+use Evinkuraga\Wallet\Models\Transfer;
+use Evinkuraga\Wallet\Services\WalletService;
+use Evinkuraga\Wallet\Test\Factories\BuyerFactory;
+use Evinkuraga\Wallet\Test\Factories\ItemDiscountTaxFactory;
+use Evinkuraga\Wallet\Test\Models\Buyer;
+use Evinkuraga\Wallet\Test\Models\ItemDiscountTax;
 
 /**
  * @internal

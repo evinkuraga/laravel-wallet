@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Evinkuraga\Wallet\Simple;
 
-use Bavix\Wallet\Internal\ExchangeInterface;
+use Evinkuraga\Wallet\Internal\ExchangeInterface;
 
 class Exchange implements ExchangeInterface
 {

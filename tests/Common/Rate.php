@@ -2,10 +2,10 @@
 
 namespace Evinkuraga\Wallet\Test\Common;
 
-use Bavix\Wallet\Interfaces\Wallet;
-use Bavix\Wallet\Internal\ExchangeInterface;
-use Bavix\Wallet\Internal\MathInterface;
-use Bavix\Wallet\Services\WalletService;
+use Evinkuraga\Wallet\Interfaces\Wallet;
+use Evinkuraga\Wallet\Internal\ExchangeInterface;
+use Evinkuraga\Wallet\Internal\MathInterface;
+use Evinkuraga\Wallet\Services\WalletService;
 use Illuminate\Support\Arr;
 
 class Rate extends \Bavix\Wallet\Simple\Rate

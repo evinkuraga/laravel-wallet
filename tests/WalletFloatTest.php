@@ -2,12 +2,12 @@
 
 namespace Evinkuraga\Wallet\Test;
 
-use Bavix\Wallet\Exceptions\AmountInvalid;
-use Bavix\Wallet\Exceptions\BalanceIsEmpty;
-use Bavix\Wallet\Internal\MathInterface;
-use Bavix\Wallet\Models\Transaction;
-use Bavix\Wallet\Test\Factories\UserFloatFactory;
-use Bavix\Wallet\Test\Models\UserFloat as User;
+use Evinkuraga\Wallet\Exceptions\AmountInvalid;
+use Evinkuraga\Wallet\Exceptions\BalanceIsEmpty;
+use Evinkuraga\Wallet\Internal\MathInterface;
+use Evinkuraga\Wallet\Models\Transaction;
+use Evinkuraga\Wallet\Test\Factories\UserFloatFactory;
+use Evinkuraga\Wallet\Test\Models\UserFloat as User;
 
 /**
  * @internal

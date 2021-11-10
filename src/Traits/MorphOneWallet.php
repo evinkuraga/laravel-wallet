@@ -2,7 +2,7 @@
 
 namespace Evinkuraga\Wallet\Traits;
 
-use Bavix\Wallet\Models\Wallet as WalletModel;
+use Evinkuraga\Wallet\Models\Wallet as WalletModel;
 use Illuminate\Database\Eloquent\Relations\MorphOne;
 
 /**

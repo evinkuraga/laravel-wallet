@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Evinkuraga\Wallet\Interfaces;
 
-use Bavix\Wallet\Exceptions\BalanceIsEmpty;
-use Bavix\Wallet\Exceptions\ConfirmedInvalid;
-use Bavix\Wallet\Exceptions\InsufficientFunds;
-use Bavix\Wallet\Exceptions\WalletOwnerInvalid;
-use Bavix\Wallet\Models\Transaction;
+use Evinkuraga\Wallet\Exceptions\BalanceIsEmpty;
+use Evinkuraga\Wallet\Exceptions\ConfirmedInvalid;
+use Evinkuraga\Wallet\Exceptions\InsufficientFunds;
+use Evinkuraga\Wallet\Exceptions\WalletOwnerInvalid;
+use Evinkuraga\Wallet\Models\Transaction;
 
 interface Confirmable
 {

@@ -2,7 +2,7 @@
 
 namespace Evinkuraga\Wallet\Test\Factories;
 
-use Bavix\Wallet\Test\Models\UserCashier;
+use Evinkuraga\Wallet\Test\Models\UserCashier;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class UserCashierFactory extends Factory

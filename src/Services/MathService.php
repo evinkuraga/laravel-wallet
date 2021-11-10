@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Evinkuraga\Wallet\Services;
 
-use Bavix\Wallet\Internal\MathInterface;
+use Evinkuraga\Wallet\Internal\MathInterface;
 use Brick\Math\BigDecimal;
 use Brick\Math\RoundingMode;
 use Illuminate\Config\Repository as ConfigRepository;

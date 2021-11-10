@@ -2,9 +2,9 @@
 
 namespace Evinkuraga\Wallet\Traits;
 
-use Bavix\Wallet\Interfaces\Product;
-use Bavix\Wallet\Models\Transfer;
-use Bavix\Wallet\Objects\Cart;
+use Evinkuraga\Wallet\Interfaces\Product;
+use Evinkuraga\Wallet\Models\Transfer;
+use Evinkuraga\Wallet\Objects\Cart;
 use function current;
 
 trait CanPay

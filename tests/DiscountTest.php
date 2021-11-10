@@ -2,15 +2,15 @@
 
 namespace Evinkuraga\Wallet\Test;
 
-use Bavix\Wallet\Exceptions\ProductEnded;
-use Bavix\Wallet\Models\Transaction;
-use Bavix\Wallet\Models\Transfer;
-use Bavix\Wallet\Models\Wallet;
-use Bavix\Wallet\Test\Factories\BuyerFactory;
-use Bavix\Wallet\Test\Factories\ItemDiscountFactory;
-use Bavix\Wallet\Test\Models\Buyer;
-use Bavix\Wallet\Test\Models\Item;
-use Bavix\Wallet\Test\Models\ItemDiscount;
+use Evinkuraga\Wallet\Exceptions\ProductEnded;
+use Evinkuraga\Wallet\Models\Transaction;
+use Evinkuraga\Wallet\Models\Transfer;
+use Evinkuraga\Wallet\Models\Wallet;
+use Evinkuraga\Wallet\Test\Factories\BuyerFactory;
+use Evinkuraga\Wallet\Test\Factories\ItemDiscountFactory;
+use Evinkuraga\Wallet\Test\Models\Buyer;
+use Evinkuraga\Wallet\Test\Models\Item;
+use Evinkuraga\Wallet\Test\Models\ItemDiscount;
 
 /**
  * @internal

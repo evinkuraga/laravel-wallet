@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Evinkuraga\Wallet\Simple;
 
-use Bavix\Wallet\Interfaces\Mathable;
-use Bavix\Wallet\Services\MathService;
+use Evinkuraga\Wallet\Interfaces\Mathable;
+use Evinkuraga\Wallet\Services\MathService;
 
 /**
  * @deprecated

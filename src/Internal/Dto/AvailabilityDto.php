@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Evinkuraga\Wallet\Internal\Dto;
 
-use Bavix\Wallet\Interfaces\Customer;
+use Evinkuraga\Wallet\Interfaces\Customer;
 
 class AvailabilityDto
 {

@@ -2,7 +2,7 @@
 
 namespace Evinkuraga\Wallet\Commands;
 
-use Bavix\Wallet\Models\Wallet;
+use Evinkuraga\Wallet\Models\Wallet;
 use Illuminate\Console\Command;
 
 /**

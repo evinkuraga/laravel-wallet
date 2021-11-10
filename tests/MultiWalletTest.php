@@ -2,17 +2,17 @@
 
 namespace Evinkuraga\Wallet\Test;
 
-use Bavix\Wallet\Exceptions\AmountInvalid;
-use Bavix\Wallet\Exceptions\BalanceIsEmpty;
-use Bavix\Wallet\Models\Transaction;
-use Bavix\Wallet\Models\Transfer;
-use Bavix\Wallet\Services\DbService;
-use Bavix\Wallet\Test\Factories\ItemFactory;
-use Bavix\Wallet\Test\Factories\UserCashierFactory;
-use Bavix\Wallet\Test\Factories\UserMultiFactory;
-use Bavix\Wallet\Test\Models\Item;
-use Bavix\Wallet\Test\Models\UserCashier;
-use Bavix\Wallet\Test\Models\UserMulti;
+use Evinkuraga\Wallet\Exceptions\AmountInvalid;
+use Evinkuraga\Wallet\Exceptions\BalanceIsEmpty;
+use Evinkuraga\Wallet\Models\Transaction;
+use Evinkuraga\Wallet\Models\Transfer;
+use Evinkuraga\Wallet\Services\DbService;
+use Evinkuraga\Wallet\Test\Factories\ItemFactory;
+use Evinkuraga\Wallet\Test\Factories\UserCashierFactory;
+use Evinkuraga\Wallet\Test\Factories\UserMultiFactory;
+use Evinkuraga\Wallet\Test\Models\Item;
+use Evinkuraga\Wallet\Test\Models\UserCashier;
+use Evinkuraga\Wallet\Test\Models\UserMulti;
 use function compact;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Database\PostgresConnection;

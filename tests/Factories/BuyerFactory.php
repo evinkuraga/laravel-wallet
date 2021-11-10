@@ -2,7 +2,7 @@
 
 namespace Evinkuraga\Wallet\Test\Factories;
 
-use Bavix\Wallet\Test\Models\Buyer;
+use Evinkuraga\Wallet\Test\Models\Buyer;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class BuyerFactory extends Factory

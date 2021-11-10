@@ -2,20 +2,20 @@
 
 namespace Evinkuraga\Wallet\Traits;
 
-use Bavix\Wallet\Exceptions\BalanceIsEmpty;
-use Bavix\Wallet\Exceptions\ConfirmedInvalid;
-use Bavix\Wallet\Exceptions\InsufficientFunds;
-use Bavix\Wallet\Exceptions\UnconfirmedInvalid;
-use Bavix\Wallet\Exceptions\WalletOwnerInvalid;
-use Bavix\Wallet\Interfaces\Confirmable;
-use Bavix\Wallet\Interfaces\Wallet;
-use Bavix\Wallet\Internal\ConsistencyInterface;
-use Bavix\Wallet\Internal\MathInterface;
-use Bavix\Wallet\Models\Transaction;
-use Bavix\Wallet\Services\CommonService;
-use Bavix\Wallet\Services\DbService;
-use Bavix\Wallet\Services\LockService;
-use Bavix\Wallet\Services\WalletService;
+use Evinkuraga\Wallet\Exceptions\BalanceIsEmpty;
+use Evinkuraga\Wallet\Exceptions\ConfirmedInvalid;
+use Evinkuraga\Wallet\Exceptions\InsufficientFunds;
+use Evinkuraga\Wallet\Exceptions\UnconfirmedInvalid;
+use Evinkuraga\Wallet\Exceptions\WalletOwnerInvalid;
+use Evinkuraga\Wallet\Interfaces\Confirmable;
+use Evinkuraga\Wallet\Interfaces\Wallet;
+use Evinkuraga\Wallet\Internal\ConsistencyInterface;
+use Evinkuraga\Wallet\Internal\MathInterface;
+use Evinkuraga\Wallet\Models\Transaction;
+use Evinkuraga\Wallet\Services\CommonService;
+use Evinkuraga\Wallet\Services\DbService;
+use Evinkuraga\Wallet\Services\LockService;
+use Evinkuraga\Wallet\Services\WalletService;
 
 trait CanConfirm
 {

@@ -2,7 +2,7 @@
 
 namespace Evinkuraga\Wallet\Test;
 
-use Bavix\Wallet\Internal\MathInterface;
+use Evinkuraga\Wallet\Internal\MathInterface;
 use Brick\Math\BigInteger;
 use Brick\Math\Exception\NumberFormatException;
 

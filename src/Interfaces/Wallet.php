@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Evinkuraga\Wallet\Interfaces;
 
-use Bavix\Wallet\Exceptions\AmountInvalid;
-use Bavix\Wallet\Exceptions\BalanceIsEmpty;
-use Bavix\Wallet\Exceptions\InsufficientFunds;
-use Bavix\Wallet\Models\Transaction;
-use Bavix\Wallet\Models\Transfer;
+use Evinkuraga\Wallet\Exceptions\AmountInvalid;
+use Evinkuraga\Wallet\Exceptions\BalanceIsEmpty;
+use Evinkuraga\Wallet\Exceptions\InsufficientFunds;
+use Evinkuraga\Wallet\Models\Transaction;
+use Evinkuraga\Wallet\Models\Transfer;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 
 interface Wallet

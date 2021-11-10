@@ -18,8 +18,8 @@
 Подготовим модель добавив `HasWallet` trait и `Wallet` interface.
 
 ```php
-use Bavix\Wallet\Traits\HasWallet;
-use Bavix\Wallet\Interfaces\Wallet;
+use Evinkuraga\Wallet\Traits\HasWallet;
+use Evinkuraga\Wallet\Interfaces\Wallet;
 
 class User extends Model implements Wallet
 {

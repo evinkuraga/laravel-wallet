@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Evinkuraga\Wallet\Services;
 
-use Bavix\Wallet\Interfaces\Rateable;
-use Bavix\Wallet\Interfaces\Wallet;
-use Bavix\Wallet\Internal\ExchangeInterface;
+use Evinkuraga\Wallet\Interfaces\Rateable;
+use Evinkuraga\Wallet\Interfaces\Wallet;
+use Evinkuraga\Wallet\Internal\ExchangeInterface;
 
 /**
  * @deprecated

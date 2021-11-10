@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Evinkuraga\Wallet\Internal;
 
-use Bavix\Wallet\Internal\Exceptions\LockProviderNotFoundException;
+use Evinkuraga\Wallet\Internal\Exceptions\LockProviderNotFoundException;
 
 interface LockInterface
 {

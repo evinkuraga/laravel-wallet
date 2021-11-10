@@ -2,11 +2,11 @@
 
 namespace Evinkuraga\Wallet\Test;
 
-use Bavix\Wallet\Models\Transaction;
-use Bavix\Wallet\Test\Factories\BuyerFactory;
-use Bavix\Wallet\Test\Factories\ItemMinTaxFactory;
-use Bavix\Wallet\Test\Models\Buyer;
-use Bavix\Wallet\Test\Models\ItemMinTax;
+use Evinkuraga\Wallet\Models\Transaction;
+use Evinkuraga\Wallet\Test\Factories\BuyerFactory;
+use Evinkuraga\Wallet\Test\Factories\ItemMinTaxFactory;
+use Evinkuraga\Wallet\Test\Models\Buyer;
+use Evinkuraga\Wallet\Test\Models\ItemMinTax;
 
 /**
  * @internal

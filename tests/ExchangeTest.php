@@ -2,9 +2,9 @@
 
 namespace Evinkuraga\Wallet\Test;
 
-use Bavix\Wallet\Models\Transfer;
-use Bavix\Wallet\Test\Factories\UserMultiFactory;
-use Bavix\Wallet\Test\Models\UserMulti;
+use Evinkuraga\Wallet\Models\Transfer;
+use Evinkuraga\Wallet\Test\Factories\UserMultiFactory;
+use Evinkuraga\Wallet\Test\Models\UserMulti;
 
 /**
  * @internal

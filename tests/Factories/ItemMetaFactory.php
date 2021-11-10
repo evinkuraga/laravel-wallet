@@ -2,7 +2,7 @@
 
 namespace Evinkuraga\Wallet\Test\Factories;
 
-use Bavix\Wallet\Test\Models\ItemMeta;
+use Evinkuraga\Wallet\Test\Models\ItemMeta;
 
 class ItemMetaFactory extends ItemFactory
 {

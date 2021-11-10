@@ -2,8 +2,8 @@
 
 namespace Evinkuraga\Wallet\Test;
 
-use Bavix\Wallet\Test\Factories\BuyerFactory;
-use Bavix\Wallet\Test\Models\Buyer;
+use Evinkuraga\Wallet\Test\Factories\BuyerFactory;
+use Evinkuraga\Wallet\Test\Models\Buyer;
 
 /**
  * @internal

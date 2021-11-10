@@ -2,16 +2,16 @@
 
 namespace Evinkuraga\Wallet\Traits;
 
-use Bavix\Wallet\Interfaces\Wallet;
-use Bavix\Wallet\Internal\ConsistencyInterface;
-use Bavix\Wallet\Internal\MathInterface;
-use Bavix\Wallet\Models\Transfer;
-use Bavix\Wallet\Objects\Bring;
-use Bavix\Wallet\Services\CommonService;
-use Bavix\Wallet\Services\DbService;
-use Bavix\Wallet\Services\ExchangeService;
-use Bavix\Wallet\Services\LockService;
-use Bavix\Wallet\Services\WalletService;
+use Evinkuraga\Wallet\Interfaces\Wallet;
+use Evinkuraga\Wallet\Internal\ConsistencyInterface;
+use Evinkuraga\Wallet\Internal\MathInterface;
+use Evinkuraga\Wallet\Models\Transfer;
+use Evinkuraga\Wallet\Objects\Bring;
+use Evinkuraga\Wallet\Services\CommonService;
+use Evinkuraga\Wallet\Services\DbService;
+use Evinkuraga\Wallet\Services\ExchangeService;
+use Evinkuraga\Wallet\Services\LockService;
+use Evinkuraga\Wallet\Services\WalletService;
 
 trait CanExchange
 {

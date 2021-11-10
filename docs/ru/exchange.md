@@ -24,8 +24,8 @@
 Напишем простой сервис. Данные будем брать из массива, а не из базы данных.
 
 ```php
-use Bavix\Wallet\Interfaces\Wallet;
-use Bavix\Wallet\Services\WalletService;
+use Evinkuraga\Wallet\Interfaces\Wallet;
+use Evinkuraga\Wallet\Services\WalletService;
 use Illuminate\Support\Arr;
 
 class MyRateService extends \Bavix\Wallet\Simple\Rate

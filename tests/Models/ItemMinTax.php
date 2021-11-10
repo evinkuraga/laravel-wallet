@@ -2,7 +2,7 @@
 
 namespace Evinkuraga\Wallet\Test\Models;
 
-use Bavix\Wallet\Interfaces\MinimalTaxable;
+use Evinkuraga\Wallet\Interfaces\MinimalTaxable;
 
 class ItemMinTax extends Item implements MinimalTaxable
 {

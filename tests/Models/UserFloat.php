@@ -2,9 +2,9 @@
 
 namespace Evinkuraga\Wallet\Test\Models;
 
-use Bavix\Wallet\Interfaces\Wallet;
-use Bavix\Wallet\Interfaces\WalletFloat;
-use Bavix\Wallet\Traits\HasWalletFloat;
+use Evinkuraga\Wallet\Interfaces\Wallet;
+use Evinkuraga\Wallet\Interfaces\WalletFloat;
+use Evinkuraga\Wallet\Traits\HasWalletFloat;
 use Jenssegers\Mongodb\Eloquent\Model;
 
 /**

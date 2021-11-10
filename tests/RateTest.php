@@ -2,10 +2,10 @@
 
 namespace Evinkuraga\Wallet\Test;
 
-use Bavix\Wallet\Interfaces\Rateable;
-use Bavix\Wallet\Services\ExchangeService;
-use Bavix\Wallet\Test\Factories\UserMultiFactory;
-use Bavix\Wallet\Test\Models\UserMulti;
+use Evinkuraga\Wallet\Interfaces\Rateable;
+use Evinkuraga\Wallet\Services\ExchangeService;
+use Evinkuraga\Wallet\Test\Factories\UserMultiFactory;
+use Evinkuraga\Wallet\Test\Models\UserMulti;
 use Illuminate\Support\Str;
 
 /**

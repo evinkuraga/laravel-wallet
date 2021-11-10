@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Evinkuraga\Wallet\Services;
 
-use Bavix\Wallet\Interfaces\Product;
-use Bavix\Wallet\Internal\CartInterface;
+use Evinkuraga\Wallet\Interfaces\Product;
+use Evinkuraga\Wallet\Internal\CartInterface;
 
 /** @deprecated */
 final class MetaService

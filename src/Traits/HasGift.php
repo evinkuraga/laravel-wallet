@@ -3,20 +3,20 @@
 namespace Evinkuraga\Wallet\Traits;
 
 use function app;
-use Bavix\Wallet\Exceptions\AmountInvalid;
-use Bavix\Wallet\Exceptions\BalanceIsEmpty;
-use Bavix\Wallet\Exceptions\InsufficientFunds;
-use Bavix\Wallet\Interfaces\Customer;
-use Bavix\Wallet\Interfaces\Product;
-use Bavix\Wallet\Interfaces\Wallet;
-use Bavix\Wallet\Internal\ConsistencyInterface;
-use Bavix\Wallet\Internal\MathInterface;
-use Bavix\Wallet\Models\Transfer;
-use Bavix\Wallet\Objects\Bring;
-use Bavix\Wallet\Services\CommonService;
-use Bavix\Wallet\Services\DbService;
-use Bavix\Wallet\Services\LockService;
-use Bavix\Wallet\Services\WalletService;
+use Evinkuraga\Wallet\Exceptions\AmountInvalid;
+use Evinkuraga\Wallet\Exceptions\BalanceIsEmpty;
+use Evinkuraga\Wallet\Exceptions\InsufficientFunds;
+use Evinkuraga\Wallet\Interfaces\Customer;
+use Evinkuraga\Wallet\Interfaces\Product;
+use Evinkuraga\Wallet\Interfaces\Wallet;
+use Evinkuraga\Wallet\Internal\ConsistencyInterface;
+use Evinkuraga\Wallet\Internal\MathInterface;
+use Evinkuraga\Wallet\Models\Transfer;
+use Evinkuraga\Wallet\Objects\Bring;
+use Evinkuraga\Wallet\Services\CommonService;
+use Evinkuraga\Wallet\Services\DbService;
+use Evinkuraga\Wallet\Services\LockService;
+use Evinkuraga\Wallet\Services\WalletService;
 use Throwable;
 
 /**

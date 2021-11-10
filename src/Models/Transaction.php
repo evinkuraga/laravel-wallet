@@ -5,10 +5,10 @@ declare(strict_types=1);
 namespace Evinkuraga\Wallet\Models;
 
 use function array_merge;
-use Bavix\Wallet\Interfaces\Wallet;
-use Bavix\Wallet\Internal\MathInterface;
-use Bavix\Wallet\Models\Wallet as WalletModel;
-use Bavix\Wallet\Services\WalletService;
+use Evinkuraga\Wallet\Interfaces\Wallet;
+use Evinkuraga\Wallet\Internal\MathInterface;
+use Evinkuraga\Wallet\Models\Wallet as WalletModel;
+use Evinkuraga\Wallet\Services\WalletService;
 use function config;
 use Jenssegers\Mongodb\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;

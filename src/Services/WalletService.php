@@ -2,17 +2,17 @@
 
 namespace Evinkuraga\Wallet\Services;
 
-use Bavix\Wallet\Exceptions\AmountInvalid;
-use Bavix\Wallet\Interfaces\Customer;
-use Bavix\Wallet\Interfaces\Discount;
-use Bavix\Wallet\Interfaces\MinimalTaxable;
-use Bavix\Wallet\Interfaces\Storable;
-use Bavix\Wallet\Interfaces\Taxable;
-use Bavix\Wallet\Interfaces\Wallet;
-use Bavix\Wallet\Internal\ConsistencyInterface;
-use Bavix\Wallet\Internal\MathInterface;
-use Bavix\Wallet\Models\Wallet as WalletModel;
-use Bavix\Wallet\Traits\HasWallet;
+use Evinkuraga\Wallet\Exceptions\AmountInvalid;
+use Evinkuraga\Wallet\Interfaces\Customer;
+use Evinkuraga\Wallet\Interfaces\Discount;
+use Evinkuraga\Wallet\Interfaces\MinimalTaxable;
+use Evinkuraga\Wallet\Interfaces\Storable;
+use Evinkuraga\Wallet\Interfaces\Taxable;
+use Evinkuraga\Wallet\Interfaces\Wallet;
+use Evinkuraga\Wallet\Internal\ConsistencyInterface;
+use Evinkuraga\Wallet\Internal\MathInterface;
+use Evinkuraga\Wallet\Models\Wallet as WalletModel;
+use Evinkuraga\Wallet\Traits\HasWallet;
 use Throwable;
 
 class WalletService

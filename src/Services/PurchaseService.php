@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Evinkuraga\Wallet\Services;
 
-use Bavix\Wallet\Interfaces\Customer;
-use Bavix\Wallet\Internal\Dto\BasketDto;
-use Bavix\Wallet\Internal\PurchaseInterface;
-use Bavix\Wallet\Models\Transfer;
-use Bavix\Wallet\Traits\HasWallet;
+use Evinkuraga\Wallet\Interfaces\Customer;
+use Evinkuraga\Wallet\Internal\Dto\BasketDto;
+use Evinkuraga\Wallet\Internal\PurchaseInterface;
+use Evinkuraga\Wallet\Models\Transfer;
+use Evinkuraga\Wallet\Traits\HasWallet;
 use Jenssegers\Mongodb\Eloquent\Model;
 
 class PurchaseService implements PurchaseInterface

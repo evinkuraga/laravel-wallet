@@ -2,7 +2,7 @@
 
 namespace Evinkuraga\Wallet\Test;
 
-use Bavix\Wallet\Services\AtomicService;
+use Evinkuraga\Wallet\Services\AtomicService;
 
 /**
  * @internal

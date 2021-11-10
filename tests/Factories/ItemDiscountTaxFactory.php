@@ -2,7 +2,7 @@
 
 namespace Evinkuraga\Wallet\Test\Factories;
 
-use Bavix\Wallet\Test\Models\ItemDiscountTax;
+use Evinkuraga\Wallet\Test\Models\ItemDiscountTax;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class ItemDiscountTaxFactory extends Factory

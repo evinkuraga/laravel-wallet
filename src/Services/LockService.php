@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Evinkuraga\Wallet\Services;
 
-use Bavix\Wallet\Internal\UuidInterface;
+use Evinkuraga\Wallet\Internal\UuidInterface;
 use Jenssegers\Mongodb\Eloquent\Model;
 
 /**

@@ -2,10 +2,10 @@
 
 namespace Evinkuraga\Wallet\Test\Models;
 
-use Bavix\Wallet\Interfaces\Confirmable;
-use Bavix\Wallet\Interfaces\Wallet;
-use Bavix\Wallet\Traits\CanConfirm;
-use Bavix\Wallet\Traits\HasWallet;
+use Evinkuraga\Wallet\Interfaces\Confirmable;
+use Evinkuraga\Wallet\Interfaces\Wallet;
+use Evinkuraga\Wallet\Traits\CanConfirm;
+use Evinkuraga\Wallet\Traits\HasWallet;
 use Jenssegers\Mongodb\Eloquent\Model;
 
 /**

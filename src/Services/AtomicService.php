@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Evinkuraga\Wallet\Services;
 
-use Bavix\Wallet\Internal\Exceptions\LockProviderNotFoundException;
-use Bavix\Wallet\Internal\LockInterface;
+use Evinkuraga\Wallet\Internal\Exceptions\LockProviderNotFoundException;
+use Evinkuraga\Wallet\Internal\LockInterface;
 use Illuminate\Cache\CacheManager;
 use Illuminate\Config\Repository as ConfigRepository;
 use Illuminate\Contracts\Cache\LockProvider;

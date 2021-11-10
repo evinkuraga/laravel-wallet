@@ -2,19 +2,19 @@
 
 namespace PHPSTORM_META {
 
-    use Bavix\Wallet\Interfaces\Mathable;
-    use Bavix\Wallet\Interfaces\Rateable;
-    use Bavix\Wallet\Interfaces\Storable;
-    use Bavix\Wallet\Models\Transaction;
-    use Bavix\Wallet\Models\Transfer;
-    use Bavix\Wallet\Models\Wallet;
-    use Bavix\Wallet\Objects\Bring;
-    use Bavix\Wallet\Objects\Cart;
-    use Bavix\Wallet\Objects\EmptyLock;
-    use Bavix\Wallet\Objects\Operation;
-    use Bavix\Wallet\Services\CommonService;
-    use Bavix\Wallet\Services\ExchangeService;
-    use Bavix\Wallet\Services\WalletService;
+    use Evinkuraga\Wallet\Interfaces\Mathable;
+    use Evinkuraga\Wallet\Interfaces\Rateable;
+    use Evinkuraga\Wallet\Interfaces\Storable;
+    use Evinkuraga\Wallet\Models\Transaction;
+    use Evinkuraga\Wallet\Models\Transfer;
+    use Evinkuraga\Wallet\Models\Wallet;
+    use Evinkuraga\Wallet\Objects\Bring;
+    use Evinkuraga\Wallet\Objects\Cart;
+    use Evinkuraga\Wallet\Objects\EmptyLock;
+    use Evinkuraga\Wallet\Objects\Operation;
+    use Evinkuraga\Wallet\Services\CommonService;
+    use Evinkuraga\Wallet\Services\ExchangeService;
+    use Evinkuraga\Wallet\Services\WalletService;
 
     override(\app(0), map([
         Cart::class => Cart::class,

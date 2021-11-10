@@ -2,9 +2,9 @@
 
 namespace Evinkuraga\Wallet\Test;
 
-use Bavix\Wallet\Internal\Dto\BasketDto;
-use Bavix\Wallet\Internal\Dto\ItemDto;
-use Bavix\Wallet\Test\Models\Item;
+use Evinkuraga\Wallet\Internal\Dto\BasketDto;
+use Evinkuraga\Wallet\Internal\Dto\ItemDto;
+use Evinkuraga\Wallet\Test\Models\Item;
 
 /**
  * @internal

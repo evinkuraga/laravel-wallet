@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Evinkuraga\Wallet\Internal;
 
-use Bavix\Wallet\Interfaces\Customer;
-use Bavix\Wallet\Internal\Dto\BasketDto;
-use Bavix\Wallet\Models\Transfer;
+use Evinkuraga\Wallet\Interfaces\Customer;
+use Evinkuraga\Wallet\Internal\Dto\BasketDto;
+use Evinkuraga\Wallet\Models\Transfer;
 
 interface PurchaseInterface
 {

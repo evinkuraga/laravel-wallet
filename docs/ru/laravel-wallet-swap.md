@@ -15,9 +15,9 @@ composer req bavix/laravel-wallet-swap
 поскольку транзакции будут между кошельками одного пользователя.
 
 ```php
-use Bavix\Wallet\Interfaces\Wallet;
-use Bavix\Wallet\Traits\HasWallets;
-use Bavix\Wallet\Traits\HasWallet;
+use Evinkuraga\Wallet\Interfaces\Wallet;
+use Evinkuraga\Wallet\Traits\HasWallets;
+use Evinkuraga\Wallet\Traits\HasWallet;
 
 class User extends Model implements Wallet
 {

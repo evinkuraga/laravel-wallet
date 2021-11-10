@@ -46,8 +46,8 @@ To perform the migration, you will be [helped by the instruction](https://bavix.
 ### Usage
 Add the `HasWallet` trait and `Wallet` interface to model.
 ```php
-use Bavix\Wallet\Traits\HasWallet;
-use Bavix\Wallet\Interfaces\Wallet;
+use Evinkuraga\Wallet\Traits\HasWallet;
+use Evinkuraga\Wallet\Interfaces\Wallet;
 
 class User extends Model implements Wallet
 {
@@ -75,8 +75,8 @@ $user->balance; // -191
 
 Add the `CanPay` trait and `Customer` interface to your `User` model.
 ```php
-use Bavix\Wallet\Traits\CanPay;
-use Bavix\Wallet\Interfaces\Customer;
+use Evinkuraga\Wallet\Traits\CanPay;
+use Evinkuraga\Wallet\Interfaces\Customer;
 
 class User extends Model implements Customer
 {
@@ -86,9 +86,9 @@ class User extends Model implements Customer
 
 Add the `HasWallet` trait and `Product` interface to `Item` model.
 ```php
-use Bavix\Wallet\Traits\HasWallet;
-use Bavix\Wallet\Interfaces\Product;
-use Bavix\Wallet\Interfaces\Customer;
+use Evinkuraga\Wallet\Traits\HasWallet;
+use Evinkuraga\Wallet\Interfaces\Product;
+use Evinkuraga\Wallet\Interfaces\Customer;
 
 class Item extends Model implements Product
 {
@@ -152,9 +152,9 @@ User::with('wallet');
 ### How to work with fractional numbers?
 Add the `HasWalletFloat` trait and `WalletFloat` interface to model.
 ```php
-use Bavix\Wallet\Traits\HasWalletFloat;
-use Bavix\Wallet\Interfaces\WalletFloat;
-use Bavix\Wallet\Interfaces\Wallet;
+use Evinkuraga\Wallet\Traits\HasWalletFloat;
+use Evinkuraga\Wallet\Interfaces\WalletFloat;
+use Evinkuraga\Wallet\Interfaces\Wallet;
 
 class User extends Model implements Wallet, WalletFloat
 {

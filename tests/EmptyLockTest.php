@@ -2,7 +2,7 @@
 
 namespace Evinkuraga\Wallet\Test;
 
-use Bavix\Wallet\Objects\EmptyLock;
+use Evinkuraga\Wallet\Objects\EmptyLock;
 
 /**
  * @internal

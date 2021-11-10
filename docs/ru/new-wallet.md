@@ -10,9 +10,9 @@
 Добавим `HasWallet`, `HasWallets` trait's и `Wallet` interface в модель.
 
 ```php
-use Bavix\Wallet\Traits\HasWallet;
-use Bavix\Wallet\Traits\HasWallets;
-use Bavix\Wallet\Interfaces\Wallet;
+use Evinkuraga\Wallet\Traits\HasWallet;
+use Evinkuraga\Wallet\Traits\HasWallets;
+use Evinkuraga\Wallet\Interfaces\Wallet;
 
 class User extends Model implements Wallet
 {

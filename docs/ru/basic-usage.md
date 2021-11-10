@@ -2,8 +2,8 @@
 
 Добавим `HasWallet` trait и `Wallet` interface в модель.
 ```php
-use Bavix\Wallet\Traits\HasWallet;
-use Bavix\Wallet\Interfaces\Wallet;
+use Evinkuraga\Wallet\Traits\HasWallet;
+use Evinkuraga\Wallet\Interfaces\Wallet;
 
 class User extends Model implements Wallet
 {
@@ -35,8 +35,8 @@ $user->balance; // -191
 > Трейт `CanPay` уже наследует `HasWallet`, повторное использование вызовет ошибку.
 
 ```php
-use Bavix\Wallet\Traits\CanPay;
-use Bavix\Wallet\Interfaces\Customer;
+use Evinkuraga\Wallet\Traits\CanPay;
+use Evinkuraga\Wallet\Interfaces\Customer;
 
 class User extends Model implements Customer
 {
@@ -48,9 +48,9 @@ class User extends Model implements Customer
 Это товар.
 
 ```php
-use Bavix\Wallet\Traits\HasWallet;
-use Bavix\Wallet\Interfaces\Product;
-use Bavix\Wallet\Interfaces\Customer;
+use Evinkuraga\Wallet\Traits\HasWallet;
+use Evinkuraga\Wallet\Interfaces\Product;
+use Evinkuraga\Wallet\Interfaces\Customer;
 
 class Item extends Model implements Product
 {
@@ -115,9 +115,9 @@ User::with('wallet');
 ## А как работать с дробными числами?
 Добавьте `HasWalletFloat` trait и `WalletFloat` interface в вашу модель.
 ```php
-use Bavix\Wallet\Traits\HasWalletFloat;
-use Bavix\Wallet\Interfaces\WalletFloat;
-use Bavix\Wallet\Interfaces\Wallet;
+use Evinkuraga\Wallet\Traits\HasWalletFloat;
+use Evinkuraga\Wallet\Interfaces\WalletFloat;
+use Evinkuraga\Wallet\Interfaces\Wallet;
 
 class User extends Model implements Wallet, WalletFloat
 {
